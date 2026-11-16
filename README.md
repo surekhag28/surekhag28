@@ -1,4 +1,4 @@
-<h1 align="center">[Surekha]</h1>
+<h1 align="center">Surekha</h1>
 <h3 align="center">Data Engineer | Data Scientist | Data Analyst | Software Engineer</h3>
 <p align="center">Azure Data Factory · ADLS Gen2 · SQL · Python · PySpark</p>
 
