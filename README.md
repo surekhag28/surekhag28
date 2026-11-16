@@ -1,10 +1,8 @@
-<h1 align="center">[Your Full Name]</h1>
+<h1 align="center">[Surekha]</h1>
 <h3 align="center">Data Engineer | Data Scientist | Data Analyst | Software Engineer</h3>
 <p align="center">Azure Data Factory · ADLS Gen2 · SQL · Python · PySpark</p>
 
-<p align="center">
-  <a href="[YOUR-LINKEDIN-URL]"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:[YOUR-EMAIL]"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+
   <a href="https://github.com/surekhag28"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
