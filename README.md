@@ -63,11 +63,3 @@ A series of hands-on Azure Data Factory projects, progressing from basic file co
 - Building the same pipelines in Microsoft Fabric
 - Strengthening production practices: idempotent reruns, data quality checks and CI/CD for Azure Data Factory
 
----
-
-## GitHub Statistics
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=surekhag28&show_icons=true&hide_border=true&count_private=true" height="150" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=surekhag28&layout=compact&hide_border=true" height="150" alt="Top languages"/>
-</p>
