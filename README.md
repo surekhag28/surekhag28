@@ -1,5 +1,5 @@
 <h1 align="center">Surekha</h1>
-<h3 align="center">Data Engineer | Data Scientist | Data Analyst | Software Engineer</h3>
+<h3 align="center">Data Engineer | Data Scientist | Data Analyst | AI/ML Engineer | FDE </h3>
 <p align="center">Azure Data Factory · Azure Databricks · Delta Lake · Unity Catalog · ADLS Gen2 · SQL · Python · PySpark</p>
 
 <p align="center">
@@ -40,12 +40,13 @@ Along the way, I have worked with retail sales data for community stores at Mona
 | **Storage and Databases** | ![ADLS Gen2](https://img.shields.io/badge/ADLS%20Gen2-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![Azure SQL Database](https://img.shields.io/badge/Azure%20SQL%20Database-0078D4?style=flat&logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) |
 | **Governance and Security** | ![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-FF3621?style=flat&logo=databricks&logoColor=white) ![Azure Key Vault](https://img.shields.io/badge/Azure%20Key%20Vault-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![Managed Identity](https://img.shields.io/badge/Managed%20Identity-0078D4?style=flat&logo=microsoftazure&logoColor=white) |
 | **Analytics** | ![Databricks AI/BI](https://img.shields.io/badge/Databricks%20AI%2FBI%20Dashboards-FF3621?style=flat&logo=databricks&logoColor=white) ![Databricks Genie](https://img.shields.io/badge/Databricks%20Genie-FF3621?style=flat&logo=databricks&logoColor=white) |
+| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat) ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white) ![Optuna](https://img.shields.io/badge/Optuna-2C5BB4?style=flat) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black) |
 | **Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
 | **Currently Learning** | ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=flat&logo=microsoft&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white) |
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### ⭐ [CareSync – End-to-End Healthcare Data Platform on Azure](https://github.com/surekhag28/caresync-data-platform)
 
@@ -66,6 +67,27 @@ A metadata-driven data platform for a network of 50 hospitals. It ingests data f
 | **Analytics** | 4-page AI/BI dashboard: Executive Overview, Hospital Performance, Lab Test Insights, Patient Population and Risk |
 
 📘 [Project overview](https://github.com/surekhag28/caresync-data-platform) · ⚙️ [ADF pipelines](https://github.com/surekhag28/adf-data-engineering-caresync) · 🧱 [Databricks notebooks](https://github.com/surekhag28/adb-caresync)
+
+### 📈 [M5 Demand Forecasting – Retail Sales Forecasting with ML](https://github.com/surekhag28/m5-demand-forecasting)
+
+An end-to-end retail demand forecasting project on the Kaggle **M5 Forecasting Accuracy** dataset (Walmart sales across products, stores, calendar events and prices). It covers the full path from raw data to tuned forecasting models, with every design decision documented.
+
+<p align="center">
+  <a href="https://github.com/surekhag28/m5-demand-forecasting">
+    <img src="https://raw.githubusercontent.com/surekhag28/m5-demand-forecasting/main/docs/images/architecture.png" width="750" alt="M5 demand forecasting architecture">
+  </a>
+</p>
+
+| Area | Highlights |
+|---|---|
+| **Data pipeline** | Bronze / silver / gold layers: chunked wide-to-long reshaping, memory downcasting, partitioned Parquet, feature building with DuckDB |
+| **Data quality** | Schema and row-count checks on raw files; duplicate key, date continuity, null / negative value and price checks on processed data |
+| **Feature engineering** | Lags, rolling demand levels, intermittency, product lifecycle and calendar / seasonality features, each tied to an EDA finding |
+| **Modelling** | Rolling-origin cross-validation, naive and seasonal-naive baselines, LightGBM global and per-store models, Optuna tuning and ensembling, evaluated with WRMSSE |
+| **ML engineering** | MLflow experiment tracking, config-driven model recipes, Python packaging with uv |
+| **Next** | Azure deployment, model monitoring and drift detection, alerting and retraining |
+
+🧰 Python · pandas · Polars · DuckDB · LightGBM · XGBoost · CatBoost · Optuna · statsmodels · scikit-learn · MLflow
 
 ---
 
